@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký hội viên</title>
+</head>
+<body>
+
+<form>
+    <label>Họ và tên:</label>
+    <input type="text" name="fullname">
+    <br><br>
+
+    <label>Ngày sinh:</label>
+    <input type="date" name="birthday">
+    <br><br>
+
+    <label>Giới tính:</label>
+    <input type="radio" name="gender" value="male"> Nam
+    <input type="radio" name="gender" value="female"> Nữ
+    <br><br>
+
+    <label>Số điện thoại:</label>
+    <input type="tel" name="phone">
+    <br><br>
+
+    <label>Email:</label>
+    <input type="email" name="email">
+    <br><br>
+
+    <label>Tên công ty:</label>
+    <input type="text" name="company_name">
+    <br><br>
+
+    <label>Vai trò trong công ty:</label>
+    <select name="company_role">
+        <option>Giám đốc điều hành (CEO)</option>
+        <option>Quản lý</option>
+        <option>Nhân viên</option>
+    </select>
+    <br><br>
+
+    <label>Quy mô công ty:</label>
+    <select name="company_size">
+        <option>Doanh nghiệp nhỏ</option>
+        <option>Doanh nghiệp vừa</option>
+        <option>Doanh nghiệp lớn</option>
+    </select>
+    <br><br>
+
+    <label>Ngành nghề công ty:</label>
+    <input type="text" name="industry">
+    <br><br>
+
+    <label>Lý do tham gia câu lạc bộ:</label>
+    <textarea name="reason"></textarea>
+    <br><br>
+
+    <label>Kinh nghiệm lãnh đạo:</label>
+    <textarea name="experience"></textarea>
+    <br><br>
+
+    <label>Mục tiêu khi tham gia câu lạc bộ:</label>
+    <textarea name="goal"></textarea>
+    <br><br>
+
+    <label>Chương trình sự kiện mong muốn tham gia:</label>
+    <input type="checkbox" name="event" value="networking"> Networking
+    <input type="checkbox" name="event" value="workshop"> Workshops
+    <input type="checkbox" name="event" value="seminar"> Hội thảo
+    <br><br>
+
+    <label>Đăng ký nhận bản tin:</label>
+    <input type="checkbox" name="newsletter" value="yes"> Có
+    <br><br>
+
+    <button type="submit">Đăng ký hội viên</button>
+</form>
+
+</body>
+</html>
